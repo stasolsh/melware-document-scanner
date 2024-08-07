@@ -1,0 +1,16 @@
+version: '3.7'
+services:
+  rest-based-solution:
+    build:
+      context: ./rest-based-solution
+      dockerfile: Dockerfile
+    ports:
+      - "9090:9090"
+      - "9890:9890"
+    container_name: rest-based-solution
+
+
+networks:
+  default:
+    name: test
+    external: true
