@@ -3,5 +3,5 @@
 ORIGIN=$(pwd)
 cd ../../
 
-docker-compose -p rest-based -f docker-compose.yml down
+docker-compose -p melware-document-scanner -f docker-compose.yml down
 cd "$ORIGIN"

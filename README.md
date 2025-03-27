@@ -7,7 +7,7 @@ Steps how to start current service:
 
 1. run mvn -T 1C clean install
 2. cd target
-3. java -jar rest-based-solution.jar
+3. java -jar melware-document-scanner.jar
 4. use any REST client
 # API endpoints
 
