@@ -4,12 +4,12 @@ set ORIGIN=%cd%
 cd ../../
 set ROOT=%cd%
 
-docker compose -p rest-based -f docker-compose.yml stop rest-based-solution
+docker compose -p melware-document-scanner -f docker-compose.yml stop melware-document-scanner
 
-cd %ROOT%/rest-based-solution
+cd %ROOT%/melware-document-scanner
 call mvn -T 1C clean install -DskipTests=true
 
 cd %ROOT%/
-docker compose -p rest-based -f docker-compose.yml up --build -d --no-deps rest-based-solution
+docker compose -p melware-document-scanner -f docker-compose.yml up --build -d --no-deps melware-document-scanner
 
 cd %ORIGIN%

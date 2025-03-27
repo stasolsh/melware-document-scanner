@@ -13,7 +13,7 @@
     <groupId>org.example</groupId>
     <artifactId>melware-document-scanner</artifactId>
     <version>1.1.01</version>
-    <name>rest-based-solution</name>
+    <name>melware-document-scanner</name>
     <description>REST based solution for quiz</description>
 
     <properties>
@@ -98,6 +98,6 @@
                 </executions>
             </plugin>
         </plugins>
-        <finalName>rest-based-solution</finalName>
+        <finalName>melware-document-scanner</finalName>
     </build>
 </project>

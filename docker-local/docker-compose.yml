@@ -1,13 +1,13 @@
 version: '3.7'
 services:
-  rest-based-solution:
+  melware-document-scanner:
     build:
-      context: ./rest-based-solution
+      context: ./melware-document-scanner
       dockerfile: Dockerfile
     ports:
       - "9090:9090"
       - "9890:9890"
-    container_name: rest-based-solution
+    container_name: melware-document-scanner
 
 
 networks:
