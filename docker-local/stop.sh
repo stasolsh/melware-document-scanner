@@ -3,5 +3,5 @@
 ORIGIN=$(pwd)
 cd ../../
 
-docker-compose -p melware-document-scanner -f docker-compose.yml down
+docker-compose -p malware-document-scanner -f docker-compose.yml down
 cd "$ORIGIN"

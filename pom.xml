@@ -11,9 +11,9 @@
     </parent>
 
     <groupId>org.example</groupId>
-    <artifactId>melware-document-scanner</artifactId>
+    <artifactId>malware-document-scanner</artifactId>
     <version>1.1.01</version>
-    <name>melware-document-scanner</name>
+    <name>malware-document-scanner</name>
     <description>REST based solution for quiz</description>
 
     <properties>
@@ -98,6 +98,6 @@
                 </executions>
             </plugin>
         </plugins>
-        <finalName>melware-document-scanner</finalName>
+        <finalName>malware-document-scanner</finalName>
     </build>
 </project>
