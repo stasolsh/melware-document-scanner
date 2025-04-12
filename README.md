@@ -7,7 +7,7 @@ Steps how to start current service:
 
 1. run mvn -T 1C clean install
 2. cd target
-3. java -jar melware-document-scanner.jar
+3. java -jar malware-document-scanner.jar
 4. use any REST client
 # API endpoints
 
@@ -21,7 +21,7 @@ Payload example:
 
 ```
 {
-    "url":"file:///D:/Java%20Projects/task/Testdaten_Rechnungseinreichung.pdf",
+    "url":"file:///var/www/html/TestDataWithoutSuspicious.pdf",
     "fileType":"PDF"
 }
 ```

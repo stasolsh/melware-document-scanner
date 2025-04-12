@@ -1,14 +1,15 @@
 version: '3.7'
 services:
-  melware-document-scanner:
+  malware-document-scanner:
     build:
-      context: ./melware-document-scanner
+      context: ./malware-document-scanner
       dockerfile: Dockerfile
     ports:
       - "9090:9090"
       - "9890:9890"
-    container_name: melware-document-scanner
-
+    container_name: malware-document-scanner
+    volumes:
+      - "./suspicious-files:/var/www/html"
 
 networks:
   default:
