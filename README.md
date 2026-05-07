@@ -5,7 +5,6 @@
 ![Maven](https://img.shields.io/badge/Maven-3.9+-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-====
 
 ## Instructions:
 
