@@ -1,4 +1,10 @@
-Rest-based solution for IBAN validity scanner
+# Rest-based solution for IBAN validity scanner
+![Build](https://github.com/stasolsh/melware-document-scanner/actions/workflows/custom-action.yml/badge.svg)
+![Coverage](https://codecov.io/gh/stasolsh/melware-document-scanner/branch/master/graph/badge.svg)
+![Java](https://img.shields.io/badge/Java-17-blue)
+![Maven](https://img.shields.io/badge/Maven-3.9+-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 ====
 
 ## Instructions:
