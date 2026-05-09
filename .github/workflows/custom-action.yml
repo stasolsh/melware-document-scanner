@@ -16,7 +16,10 @@ jobs:
           distribution: temurin
       - name: Run the Maven verify phase
         run: mvn clean test --batch-mode --update-snapshots verify
-
+      - uses: stasolsh/spring-boot-quality-gate-action@v1
+        with:
+          coverage-threshold: 80
+          build-tool: auto
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v4
         with:
